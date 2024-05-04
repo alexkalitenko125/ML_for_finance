@@ -1,2 +1,2 @@
 # ML_for_finance
-ML for finance forecasting. 
+ML for finance forecasting (colab version).
