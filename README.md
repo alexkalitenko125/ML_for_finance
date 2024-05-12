@@ -5,8 +5,7 @@ This project was created to test the ability to predict the behavior of the stoc
 
 This project may be useful for specialists in financial analytics or the scientific field. Please refer to the repository when using it.
 
-By going through and learning from the basics of technical analysis, the following scheme looks promising.
+By going through and learning from the basics of technical analysis, the following scheme looks promising 
 
-
-
+img src="./Finance5.pdf"
 
