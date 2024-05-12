@@ -7,6 +7,6 @@ This project may be useful for specialists in financial analytics or the scienti
 
 By going through and learning from the basics of technical analysis, the following scheme looks promising.
 
-<img src=[Finance5.pdf](https://github.com/alexkalitenko125/ML_for_finance/files/15286167/Finance5.pdf)>
+
 
 
