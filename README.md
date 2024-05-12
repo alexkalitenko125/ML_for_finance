@@ -7,6 +7,6 @@ This project may be useful for specialists in financial analytics or the scienti
 
 By going through and learning from the basics of technical analysis, the following scheme looks promising 
 
-<img src="./Finance5.png"  width="400" 
+<img src="./Finance5.png"  width="500" 
      height=auto>
 
