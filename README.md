@@ -10,3 +10,4 @@ By going through and learning from the basics of technical analysis, the followi
 <img src="./Finance5.png"  width="500" 
      height=auto>
 
+***Important update: Yahoo Finance no longer displays data from the Russian stock market.  apimoex has been integrated.*** 
