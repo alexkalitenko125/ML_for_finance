@@ -1,13 +1,20 @@
 # ML_for_finance
 ML for finance forecasting (colab version).
 
-This project was created to test the ability to predict the behavior of the stock market in stable times when force majeure is insignificant. Neural networks can take into account some price periodicity, trends, and correlations between index values. For example, oil and gas prices only affect rubles and the MOEX index after a while, in turn, the ruble and MOEX affect each other. The author's projects are presented here. So far, recurrent networks and conventional fully connected ones have been used as models, which were built intuitively and adjusted for maximum predictive accuracy based on a subjective assessment, as well as the basics of technical market analysis.
+This project was created to test the ability of neural networks to predict the stock market's behavior in stable times, when force majeure events are not significant. Neural networks take into account price periodicity, trends, and correlations between index values. Oil and gas prices, for example, only affect the ruble and the Moscow Exchange index after a certain period of time, and in turn, the ruble and Moscow Exchange affect each other. The author's models use recurrent neural networks and conventional fully connected neural networks, which were built intuitively and adjusted for maximum predictive accuracy based on subjective assessment and the basics of technical market analysis.
 
+## Scientific interest
 This project may be useful for specialists in financial analytics or the scientific field. Please refer to the repository when using it.
 
+## Data
+The data is downloading from Yahoo Finance and MOEX. 
+
+
+***Important update: Yahoo Finance no longer displays data from the Russian stock market.  apimoex has been integrated.*** 
+
+### NN architecture
 By going through and learning from the basics of technical analysis, the following scheme looks promising 
 
 <img src="./Finance5.png"  width="500" 
      height=auto>
 
-***Important update: Yahoo Finance no longer displays data from the Russian stock market.  apimoex has been integrated.*** 
