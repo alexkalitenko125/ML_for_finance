@@ -15,7 +15,7 @@ The data is downloading from Yahoo Finance and MOEX.
 ## NN architecture
 By going through and learning from the basics of technical analysis, the following scheme looks promising 
 ### NN stack 
-PyTorch, Pandas, yfinance, LSTM, Multi-Dimensional Regression, apimoex
+PyTorch, Pandas, sklearn, yfinance, LSTM, Multi-Dimensional Regression, apimoex
 
 <img src="./Finance5.png"  width="500" 
      height=auto>
