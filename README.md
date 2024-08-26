@@ -13,7 +13,7 @@ The data is downloading from Yahoo Finance and MOEX.
 ***Important update: Yahoo Finance no longer displays data from the Russian stock market.  apimoex has been integrated.*** 
 
 ## NN architecture
-By going through and learning from the basics of technical analysis, the following scheme looks promising 
+By going through and learning from the basics of technical analysis, the following scheme looks promising for a long time + RL for short time
 ### NN stack 
 PyTorch, Pandas, sklearn, yfinance, LSTM, Multi-Dimensional Regression, apimoex
 
