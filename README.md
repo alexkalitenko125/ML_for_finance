@@ -12,10 +12,14 @@ The data is downloading from Yahoo Finance and MOEX.
 
 ***Important update: Yahoo Finance no longer displays data from the Russian stock market.  apimoex has been integrated.*** 
 
-## NN architecture
-By going through and learning from the basics of technical analysis, the following scheme looks promising for a long time + RL for short time
+## NN architecture with LSTM
+By going through and learning from the basics of technical analysis, the following scheme looks promising for a long time 
+
+## RL 
+Technical analysis is based on patterns - certain patterns of changes in stock prices and futures. There is a complex system - the *Elliot wave principle* based on Fibonacci numbers. Due to the difficulty of diagnosing patterns using these rules, some analysts win more often and others lose using their interpretations. Machine learning can train on the past, develop relevant rules and use them in games. Reinforcement learning is used for this, when the agent is in the environment, playing and learning.
+
 ### NN stack 
-PyTorch, Pandas, sklearn, yfinance, LSTM, Multi-Dimensional Regression, apimoex
+PyTorch, Pandas, sklearn, yfinance, LSTM, Multi-Dimensional Regression, apimoex, reinforcement learning
 
 <img src="./Finance5.png"  width="500" 
      height=auto>
