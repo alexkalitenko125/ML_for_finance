@@ -21,6 +21,8 @@ By going through and learning from the basics of technical analysis, the followi
 ## Reinforcement learning 
 Technical analysis is based on patterns - certain patterns of changes in stock prices and futures. There is a complex system - the *Elliot wave principle* based on Fibonacci numbers. Due to the difficulty of diagnosing patterns using these rules, some analysts win more often and others lose using their interpretations. Machine learning can train on the past, develop relevant rules and use them in games. Reinforcement learning is used for this, when the agent is in the environment, playing and learning.
 
+The challenge is to find the optimal architecture to prevent overfitting. Dropouts can have a negative impact on the performance of an agent. A large neural network learns from the data provided, but it is necessary to manually select the appropriate learning rate and architecture. After that, it is important to test the model with different seeds to ensure accuracy. Only after these steps can the model be used in the market with confidence.
+
 ### NN stack 
 PyTorch, Pandas, sklearn, yfinance, LSTM, Multi-Dimensional Regression, apimoex, reinforcement learning
 
