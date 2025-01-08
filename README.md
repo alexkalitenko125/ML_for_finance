@@ -28,13 +28,7 @@ Inspired by the structure of the brain, neurons are embedded in a geometric spac
 ]. 
 
 We modified our code with RL to lower overfitting, make our NN more compact, to induce Grokking mechanism. Also, we can changed reward cost function 
- $$ \begin{cases}
-1, 
-x = 1 
-\\
--3, 
-x = -1
-\end{cases} $$
+ $$1, x = 1$$ $$-3, x = -1$$
 
 
 ### NN stack 
