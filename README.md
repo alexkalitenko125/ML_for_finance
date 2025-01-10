@@ -33,7 +33,7 @@ Inspired by the structure of the brain, neurons are embedded in a geometric spac
 
 
 We modified our code with RL to lower overfitting, make our NN more compact, to induce Grokking mechanism. Also, we can changed reward cost function 
- $$1, x = 1$$; $$-3, x = -1$$. This approach balances the accuracy of neural network predictions and the size of the model. We move the minimization of neural networks to the neural network itself. Instead of memorization, we gain understanding.
+ $$1, x = 1$$; $$-3, x = -1$$ to make fail less possible. This approach balances the accuracy of neural network predictions and the size of the model. We move the minimization of neural networks to the neural network itself. Instead of memorization, we gain understanding.
 
 
 ### NN stack 
