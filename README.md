@@ -37,6 +37,7 @@ We modified our code with RL to lower overfitting, make our NN more compact, to 
  
 <img src="./BIMT_example.png"  width="500" 
      height=auto>
+     
 Seeds and model can change the training, but it should converge to similar solutions. 
 
 ### NN stack 
