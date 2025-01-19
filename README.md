@@ -38,7 +38,7 @@ We modified our code with RL to lower overfitting, make our NN more compact, to 
 <img src="./BIMT_example.png"  width="500" 
      height=auto>
      
-Seeds and model can change the training, but it should converge to similar solutions. 
+The data augementation has been added $-$ the noise in environment now add a normal distribuited noise for every replay_experience.
 
 ### NN stack 
 PyTorch, Pandas, sklearn, yfinance, LSTM, Multi-Dimensional Regression, apimoex, reinforcement learning, Brain-inspired Modular Training
