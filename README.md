@@ -23,7 +23,7 @@ Technical analysis is based on patterns - certain patterns of changes in stock p
 
 The challenge is to find the optimal architecture to prevent overfitting. Dropouts can have a negative impact on the performance of an agent. A large neural network learns from the data provided, but it is necessary to manually select the appropriate learning rate and architecture. After that, it is important to test the model with different seeds to ensure accuracy. Only after these steps can the model be used in the market with confidence. 
 
-Reinforcement learning is not so stable, the best model selector has been added. Also the `VOLUME` has been added as the second variable.  
+Reinforcement learning is not so stable, the best model selector has been added. Also the `VOLUME` with MINMAX normalization has been added as the second variable.  
 
 ## Brain-inspired Modular Training
 Inspired by the structure of the brain, neurons are embedded in a geometric space where distances are defined. We modify the loss function by adding a cost that is proportional to the length of each neuron connection, multiplied by the absolute value of its connection weight. This promotes locality, or the tendency to keep neurons that need to communicate close together. Any Riemannian manifold can be used for this purpose, but we explore 2D and 3D Euclidean spaces for ease of visualization. This approach was proposed by Ziming Liu, Eric Gan and Max Tegmark in https://arxiv.org/abs/2305.08746.
